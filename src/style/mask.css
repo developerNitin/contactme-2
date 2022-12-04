@@ -14,12 +14,12 @@
 }
 
 #mask div {
-  width: 285px;
-  border-right: 1.5px solid #212121;
+  width: 286px;
+  border-right: 1px solid #3F0071;
 }
 
 #mask div:nth-child(1) {
-  border-left: 1.5px solid #212121;
+  border-left: 1px solid #3F0071;
 }
 
 @media (max-width: 930px) {

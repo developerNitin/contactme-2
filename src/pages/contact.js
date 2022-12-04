@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 // import Typed from "react-typed";
-import "../style/component/contact.css"
+import {
+  RiSnapchatLine,
+  RiMailLine,
+  RiPhoneLine,
+  RiInstagramLine,
+} from "react-icons/ri";
+import "../style/component/contact.css";
 
 class Contact extends Component {
   render() {
@@ -29,23 +35,35 @@ class Contact extends Component {
         <div className="contact_info">
           <div className="contact_info_sub">
             <div>
-              <p>Phone</p>
-              <span>+91 8847379603</span>
+              <p>
+                <RiPhoneLine />
+              </p>
+              <span>+91 9915315630</span>
             </div>
             <div>
-              <p>Email</p>
-              <span>contact@nitinbirdi.com</span>
+              <p>
+                <RiMailLine />
+              </p>
+              <span>786rajnish.rk@gmail.com</span>
             </div>
           </div>
           <div className="contact_info_sub">
-            <div>
-              <p>Address</p>
-              <span>2621 W Pico Blvd, Los Angeles</span>
-            </div>
-            <div>
-              <p>Freelance Available</p>
-              <span>I am available for Freelance hire</span>
-            </div>
+            <a href="https://www.snapchat.com/add/rajnish.007?share_id=DUYXaFsDTqqnfNUOtZNXoA&locale=en_IN">
+              <div>
+                <p>
+                  <RiSnapchatLine />
+                </p>
+                <span>snapchat.com@rajnish.007</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/rajnish.007">
+              <div>
+                <p>
+                  <RiInstagramLine />
+                </p>
+                <span>instagram.com@rajnish.007</span>
+              </div>
+            </a>
           </div>
         </div>
         {/* <div className="works_filter_menu blog_filter_menu">

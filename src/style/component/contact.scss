@@ -29,16 +29,22 @@ $fontS: "font-s";
     .contact_info_sub {
       display: flex;
       justify-content: space-between;
+      a {
+        text-decoration: none;
+        color: white;
+      }
       div {
         padding: 35px;
-        border: 1.5px solid #212121;
+        border: 1px solid #3F0071;
         width: 322px;
         text-align: center;
         font-family: $fontR;
         margin-top: 70px;
         background-color: $aColor;
+        
         p {
           margin-top: 0;
+          font-size: 22px;
         }
         span {
           color: $bColor;
