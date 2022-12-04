@@ -47,11 +47,13 @@ $fontS: "font-s";
         padding: 30px;
         border: 1px solid #3f0071;
         width: 322px;
-        text-align: center;
         font-family: $fontR;
         margin-top: 70px;
         background-color: $aColor;
-
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         p {
           margin-top: 0;
           font-size: 22px;
@@ -108,32 +110,30 @@ $fontS: "font-s";
 //   }
 // }
 
-@media (max-width: 880px) {
-  #contact {
-    .contact_info {
-      .contact_info_sub {
-        div {
-          width: calc(50% - 20px);
-          &:nth-child(1) {
-            margin-right: 30px;
-          }
-        }
-      }
-    }
-  }
-}
+// @media (max-width: 880px) {
+//   #contact {
+//     .contact_info {
+//       .contact_info_sub {
+//         div {
+//           width: calc(50% - 20px);
+//           &:nth-child(1) {
+//             margin-right: 30px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media (max-width: 750px) {
+@media (max-width: 880px) {
   #contact {
     .contact_info {
       margin: -20px 35px 35px 35px;
       .contact_info_sub {
         display: block;
         div {
-          display: block;
           padding: 25px;
-          width: calc(100% - 70px);
-
+          width: calc(100% - 52px);
           margin-top: 40px !important;
         }
       }
