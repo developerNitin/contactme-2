@@ -53,18 +53,21 @@ class Contact extends Component {
             </a>
           </div>
           <div className="contact_info_sub">
+          <a href="tel://+919915315630">
             <div>
               <p>
                 <RiPhoneLine />
               </p>
               <span>+91 9915315630</span>
-            </div>
+            </div></a>
+            <a href="mailto:786rajnish.rk@gmail.com">
             <div>
               <p>
                 <RiMailLine />
               </p>
               <span>786rajnish.rk@gmail.com</span>
             </div>
+            </a>
           </div>
         </div>
         {/* <div className="works_filter_menu blog_filter_menu">
