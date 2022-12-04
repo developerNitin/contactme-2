@@ -10,7 +10,7 @@ class Header extends Component {
         $("#header").css({ padding: "50px 0", backgroundColor: "transparent" });
         $("#header_mask").css({ height: "140px" });
       } else {
-        $("#header").css({ padding: "30px 0", backgroundColor: "#101010" });
+        $("#header").css({ padding: "30px 0", backgroundColor: "black" });
         $("#header_mask").css({ height: "100px" });
       }
     });
