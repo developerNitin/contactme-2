@@ -18,6 +18,15 @@ $fontR: "font-r";
 $fontS: "font-s";
 
 #contact {
+  button {
+    font-size: $mFont;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 25px 12px 25px;
+    font-family: $fontR;
+    color: white;
+    margin-top: 20px;
+  }
   .works_topbar {
     h1 {
       font-size: 34px;
@@ -26,6 +35,7 @@ $fontS: "font-s";
   .contact_info {
     margin-bottom: 70px;
     font-size: $mFont;
+
     .contact_info_sub {
       display: flex;
       justify-content: space-between;
@@ -34,17 +44,18 @@ $fontS: "font-s";
         color: white;
       }
       div {
-        padding: 35px;
-        border: 1px solid #3F0071;
+        padding: 30px;
+        border: 1px solid #3f0071;
         width: 322px;
         text-align: center;
         font-family: $fontR;
         margin-top: 70px;
         background-color: $aColor;
-        
+
         p {
           margin-top: 0;
           font-size: 22px;
+          margin-bottom: 10px;
         }
         span {
           color: $bColor;
@@ -59,43 +70,43 @@ $fontS: "font-s";
   }
 }
 
-.contact_form {
-  padding: 35px;
-  border: 1.5px solid #212121;
-  background-color: $aColor;
-  margin-bottom: 70px;
+// .contact_form {
+//   padding: 35px;
+//   border: 1.5px solid #212121;
+//   background-color: $aColor;
+//   margin-bottom: 70px;
 
-  form {
-    input,
-    textarea {
-      color: $dColor;
-      height: 49px;
-      background-color: transparent;
-      border: none;
-      border-bottom: 1.5px solid #212121;
-      width: 100%;
-      font-size: $mFont;
-      transition: 0.5s all ease;
-      margin-bottom: 30px;
-      &:focus {
-        border-bottom: 1.5px solid $cColor;
-      }
-    }
-    textarea {
-      height: 102px;
-      padding-top: 15px;
+//   form {
+//     input,
+//     textarea {
+//       color: $dColor;
+//       height: 49px;
+//       background-color: transparent;
+//       border: none;
+//       border-bottom: 1.5px solid #212121;
+//       width: 100%;
+//       font-size: $mFont;
+//       transition: 0.5s all ease;
+//       margin-bottom: 30px;
+//       &:focus {
+//         border-bottom: 1.5px solid $cColor;
+//       }
+//     }
+//     textarea {
+//       height: 102px;
+//       padding-top: 15px;
 
-    }
-    button {
-      font-size: $mFont;
-      border: 2px solid $cColor;
-      background-color: transparent;
-      padding: 10px 25px 12px 25px;
-      font-family: $fontR;
-      color: $cColor;
-    }
-  }
-}
+//     }
+//     button {
+//       font-size: $mFont;
+//       border: 2px solid $cColor;
+//       background-color: transparent;
+//       padding: 10px 25px 12px 25px;
+//       font-family: $fontR;
+//       color: $cColor;
+//     }
+//   }
+// }
 
 @media (max-width: 880px) {
   #contact {
@@ -115,16 +126,15 @@ $fontS: "font-s";
 @media (max-width: 750px) {
   #contact {
     .contact_info {
-      margin: 0 35px;
+      margin: -20px 35px 35px 35px;
       .contact_info_sub {
         display: block;
         div {
           display: block;
           padding: 25px;
           width: calc(100% - 70px);
-          &:nth-child(2) {
-            margin-top: 70px;
-          }
+
+          margin-top: 40px !important;
         }
       }
     }

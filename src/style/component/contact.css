@@ -1,3 +1,13 @@
+#contact button {
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px 25px 12px 25px;
+  font-family: "font-r";
+  color: white;
+  margin-top: 20px;
+}
+
 #contact .works_topbar h1 {
   font-size: 34px;
 }
@@ -22,8 +32,8 @@
 }
 
 #contact .contact_info .contact_info_sub div {
-  padding: 35px;
-  border: 1px solid #3F0071;
+  padding: 30px;
+  border: 1px solid #3f0071;
   width: 322px;
   text-align: center;
   font-family: "font-r";
@@ -34,6 +44,7 @@
 #contact .contact_info .contact_info_sub div p {
   margin-top: 0;
   font-size: 22px;
+  margin-bottom: 10px;
 }
 
 #contact .contact_info .contact_info_sub div span {
@@ -42,46 +53,6 @@
 
 #contact .contact_info .contact_info_sub:nth-child(1) div {
   margin-top: 35px;
-}
-
-.contact_form {
-  padding: 35px;
-  border: 1.5px solid #212121;
-  background-color: #101010;
-  margin-bottom: 70px;
-}
-
-.contact_form form input,
-.contact_form form textarea {
-  color: #ffffff;
-  height: 49px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1.5px solid #212121;
-  width: 100%;
-  font-size: 16px;
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-  margin-bottom: 30px;
-}
-
-.contact_form form input:focus,
-.contact_form form textarea:focus {
-  border-bottom: 1.5px solid #4cffa5;
-}
-
-.contact_form form textarea {
-  height: 102px;
-  padding-top: 15px;
-}
-
-.contact_form form button {
-  font-size: 16px;
-  border: 2px solid #4cffa5;
-  background-color: transparent;
-  padding: 10px 25px 12px 25px;
-  font-family: "font-r";
-  color: #4cffa5;
 }
 
 @media (max-width: 880px) {
@@ -95,7 +66,7 @@
 
 @media (max-width: 750px) {
   #contact .contact_info {
-    margin: 0 35px;
+    margin: -20px 35px 35px 35px;
   }
   #contact .contact_info .contact_info_sub {
     display: block;
@@ -104,9 +75,7 @@
     display: block;
     padding: 25px;
     width: calc(100% - 70px);
-  }
-  #contact .contact_info .contact_info_sub div:nth-child(2) {
-    margin-top: 70px;
+    margin-top: 40px !important;
   }
   #contact .contact_form {
     margin: 0 35px;

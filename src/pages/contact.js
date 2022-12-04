@@ -34,6 +34,25 @@ class Contact extends Component {
         </div>
         <div className="contact_info">
           <div className="contact_info_sub">
+            <a href="https://instagram.com/rajnish.007">
+              <div>
+                <p>
+                  <RiInstagramLine />
+                </p>
+                <span>instagram.com@rajnish.007</span>
+              </div>
+            </a>
+            <a href="https://www.snapchat.com/add/rajnish.007?share_id=DUYXaFsDTqqnfNUOtZNXoA&locale=en_IN">
+              <div>
+                <p>
+                  <RiSnapchatLine />
+                </p>
+                <span>snapchat.com@rajnish.007</span>
+                {/* <button>Send Message</button> */}
+              </div>
+            </a>
+          </div>
+          <div className="contact_info_sub">
             <div>
               <p>
                 <RiPhoneLine />
@@ -47,24 +66,6 @@ class Contact extends Component {
               <span>786rajnish.rk@gmail.com</span>
             </div>
           </div>
-          <div className="contact_info_sub">
-            <a href="https://www.snapchat.com/add/rajnish.007?share_id=DUYXaFsDTqqnfNUOtZNXoA&locale=en_IN">
-              <div>
-                <p>
-                  <RiSnapchatLine />
-                </p>
-                <span>snapchat.com@rajnish.007</span>
-              </div>
-            </a>
-            <a href="https://instagram.com/rajnish.007">
-              <div>
-                <p>
-                  <RiInstagramLine />
-                </p>
-                <span>instagram.com@rajnish.007</span>
-              </div>
-            </a>
-          </div>
         </div>
         {/* <div className="works_filter_menu blog_filter_menu">
           <h1>Contacts Form</h1>
@@ -74,7 +75,7 @@ class Contact extends Component {
             <input placeholder="Name"></input>
             <input placeholder="Email"></input>
             <textarea style={{fontFamily: "arial"}} cols="40" rows="10" aria-invalid="false" aria-required="true" placeholder="Message"></textarea>
-            <button>Send Message</button>
+            
           </form>
         </div> */}
       </div>
